@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!--
+My Online Homepage
+-->
+<html><head>
+<title>Ziyang Chen's Homepage</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<style type="text/css">
+ @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+
+body
+{
+	font-family: 'Source Sans Pro', sans-serif;
+    background-color : #CDCDCD;
+    font-size: 17px;
+}
+    .content
+	{
+    		width : 1300px;
+    		padding : 25px 30px;
+    		margin : 25px auto;
+    		background-color : #fff;
+    		box-shadow: 0px 0px 10px #999;
+    		border-radius: 15px; 
+	}	
+	table
+	{
+		padding: 5px;
+	}
+	
+	table.pub_table,td.pub_td1,td.pub_td2
+	{
+		padding: 8px;
+		width: 1100px;
+        border-collapse: separate;
+        border-spacing: 15px;
+        margin-top: -5px;
+	}
+
+	td.pub_td1
+	{
+		width:50px;
+	}
+    td.pub_td1 img
+    {
+        height:120px;
+        width: 160px;
+    }
+	
+	div#container
+	{
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+		text-align: justify;
+		position: relative;
+		background-color: #FFF;
+	}
+	div#DocInfo
+	{
+		color: #3B3B3B;
+		height: 158px;
+	}
+	h4,h3,h2,h1
+	{
+		color: #3B3B3B;
+	}
+	h2
+	{
+		font-size:130%;
+	}
+	p
+	{
+		color: #5B5B5B;
+		margin-bottom: 50px;
+	}
+	p.caption
+	{
+		color: #9B9B9B;
+		text-align: left;
+		width: 600px;
+	}
+	p.caption2
+	{
+		color: #9B9B9B;
+		text-align: left;
+		width: 800px;
+	}
+	#header_img
+	{
+		position: absolute;
+		top: 0px; right: 0px;
+    }
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+   
+    table.pub_table tr {
+        outline: thin dotted #666666;
+    }
+    .papericon {
+        border-radius: 8px; 
+        -moz-box-shadow: 3px 3px 6px #888;
+        -webkit-box-shadow: 3px 3px 6px #888;
+        box-shadow: 3px 3px 6px #888;
+    }
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23931362-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+    var myPix = new Array("images/id.jpg")
+    function choosePic() {
+        var randomNum = Math.floor(Math.random() * myPix.length);
+        document.getElementById("myPicture").src = myPix[randomNum];
+    };
+
+</script>
+</head>
+
+
+<body>
+<div class="content">
+	<div id="container">
+<center>
+	<table>
+	<tbody><tr>
+	<td><img id="myPicture" src="images/id.jpg" style="float:left; padding-right:10px" height="200px"></td>
+	<td>
+	<div id="DocInfo">
+		<h1><strong>Ziyang Chen 陈梓杨</strong></h1>
+						<h2>Ph.D. Candidate</h2>
+							Affiliation: School of Computer Science and Engineering, Northwestern Polytechnical University<br />
+							Current Address: 1 Dongxiang Road, Chang'an District, Xi'an, Shaanxi, China<br />
+							Email: zychen@mail.nwpu.edu.cn<br />
+							<a href="https://scholar.google.com/citations?user=t3ONh5gAAAAJ&hl=zh-CN">Google Scholar</a>
+							&bull; <a href="https://github.com/Chen-Ziyang">GitHub</a>
+						</div><br>
+	</td>
+	</tr>
+	</tbody></table>
+</center>
+<br>
+	<h2><strong>Biography</strong></h2>
+	<ul>
+		<li><strong>Introduction</strong></li>
+			<ul>
+			I am a second-year Ph.D. student at National Engineering Laboratory for Integrated Aero-Space-Ground-Ocean Big Data Application Technology, School of Computer Science and Engineering, Northwestern Polytechnical University (NPU), China.
+			My research focuses on domain adaptation, domain generalization, self-supervised learning, and universal model.
+			</ul> 
+		<li><strong>Education Backgrounds</strong></li>
+			<ul>
+			<li>2023.03-Present &nbsp; &bull;&nbsp; Ph.D. Candidate &nbsp; &bull;&nbsp; Supervisor: <a href="https://teacher.nwpu.edu.cn/en/yongxia.html">Prof. Yong Xia</a>.<br></li>
+			<h6>School of Computer Science and Engineering, Northwestern Polytechnical University, China</h6>
+			<li>2021.09-2023.03 &nbsp; &bull;&nbsp;&nbsp; M.E. Candidate &nbsp;  &nbsp;&bull;&nbsp; Supervisor: <a href="https://teacher.nwpu.edu.cn/en/yongxia.html">Prof. Yong Xia</a>.<br></li>
+			<h6>School of Computer Science and Engineering, Northwestern Polytechnical University, China</h6>
+			<li>2017.09-2021.06 &nbsp; &bull;&nbsp; B.S. &nbsp; &bull;&nbsp; Supervisor: <a href="https://teacher.nwpu.edu.cn/en/yongxia.html">Prof. Yong Xia</a>.<br></li>
+			<h6>School of Life Sciences, Northwestern Polytechnical University, China</h6>
+			</ul> 
+	</ul>
+    <h2><strong>News</strong></h2>
+	<div style="height: 230px; overflow: auto;">
+    	<ul>
+		<li>[2024.12.10] One paper was accepted by AAAI 2025.</li>
+		<li>[2024.10.30] Our team won the honorable mention in the FLARE challenge task 1 at MICCAI 2024.</li>
+		<li>[2024.10.30] Our team won the winner finalist in the FLARE challenge task 3 at MICCAI 2024.</li>
+		<li>[2024.10.28] Our team won the 3rd place in the MMIS challenge at MICCAI 2024.</li>
+		<li>[2024.09.30] Our team won the 2nd place in the STAGE2 challenge at MICCAI 2024.</li>
+		<li>[2024.07.19] I was selected as a joint PhD student supported by the China Scholarship Council (CSC).</li>
+		<li>[2024.07.12] One joint paper was accepted by IEEE-TMI 2024.</li>
+		<li>[2024.05.30] One paper was accepted by IEEE-JBHI 2024.</li>
+		<li>[2024.02.27] One paper and one joint paper were accepted by CVPR 2024.</li>
+		<li>[2023.10.12] Our team won the 2nd place in the SegRap challenge at MICCAI 2023.</li>
+		<li>[2023.10.12] Our team won the 2nd place in the STAGE challenge at MICCAI 2023.</li>
+		<li>[2023.05.25] One paper and one joint paper were early accepted by MICCAI 2023.</li>
+		<li>[2023.04.11] One paper was accepted by IEEE-JBHI 2023.</li>
+		<li>[2022.06.03] One joint paper was accepted by MICCAI 2022.</li>
+		<li>[2021.09.21] One paper was accepted by MICCAI 2021 OMIA Workshop.</li>
+		<li>[2021.06.30] I received the B.S. degree from Northwestern Polytechnical University, supervised by <a href="https://teacher.nwpu.edu.cn/en/yongxia.html">Prof. Yong Xia</a>.</li>
+    	<li>[2019.08.31] Our team won the 2nd place in the 2019 China Robot Competition.</li>
+		<li>[2019.05.06] Our team won the first prize in the 2nd National College Intelligent Robot Creative Competition.</li>
+		</ul>
+	</div>
+	<br>
+	<h2><strong>Representative Publications </strong></h2> 
+	<ul>
+		* and <sup>†</sup> indicate the corresponding authorship and equal contribution, respectively.
+	</ul>
+	<h5><strong>Domain Adaptation</strong></h5>
+	<table class="pub_table" >
+	<tbody>
+		<tr>
+			<td class="pub_td1"><img src="images/DA/aaai2025.png" class="papericon"></td>
+			<td class="pub_td2"><u>Ziyang Chen</u>, Yiwen Ye, Yongsheng Pan*, and Yong Xia*<br><b>
+				Gradient Alignment Improves Test-Time Adaptation for Medical Image Segmentation</b><br> AAAI, 2025. [<a href="https://arxiv.org/abs/2408.07343">Paper</a>, <a href="https://github.com/Chen-Ziyang/GraTa">Code</a>]
+		</td></tr>
+		<tr>
+			<td class="pub_td1"><img src="images/DA/cvpr2024.png" class="papericon"></td>
+			<td class="pub_td2"><u>Ziyang Chen</u>, Yongsheng Pan*, Yiwen Ye, Mengkang Lu, and Yong Xia*<br><b>
+				Each Test Image Deserves A Specific Prompt: Continual Test-Time Adaptation for 2D Medical Image Segmentation</b><br> CVPR, pp. 11184-11193, 2024. [<a href="https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Each_Test_Image_Deserves_A_Specific_Prompt_Continual_Test-Time_Adaptation_CVPR_2024_paper.html">Paper</a>, <a href="https://github.com/Chen-Ziyang/VPTTA">Code</a>]
+		</td></tr>
+		<tr>
+			<td class="pub_td1"><img src="images/DA/jbhi2024.png" class="papericon"></td>
+			<td class="pub_td2"><u>Ziyang Chen<sup>†</sup></u>, Yongsheng Pan<sup>†</sup>, Yiwen Ye, Zhiyong Wang, and Yong Xia*<br><b>
+				TriLA: Triple-level Align- ment based Unsupervised Domain Adaptation for Joint Segmentation of Optic Disc and Optic Cup</b><br> IEEE-JBHI, vol. 28(9), pp. 5497-5508, 2024. [<a href="https://ieeexplore.ieee.org/abstract/document/10540208">Paper</a>, <a href="https://github.com/Chen-Ziyang/TriLA">Code</a>]
+		</td></tr>
+		<tr>
+			<td class="pub_td1"><img src="images/DA/jbhi2023.png" class="papericon"></td>
+			<td class="pub_td2"><u>Ziyang Chen<sup>†</sup></u>, Yongsheng Pan<sup>†</sup>, and Yong Xia*<br><b>
+				Reconstruction-Driven Dynamic Refinement Based Unsupervised Domain Adaptation for Joint Optic Disc and Cup Segmentation</b><br> IEEE-JBHI, vol. 27(7), pp. 3537-3548, 2023. [<a href="https://ieeexplore.ieee.org/abstract/document/10100704">Paper</a>]
+		</td></tr>
+	</tbody></table>
+
+	<h5><strong>Domain Generalization</strong></h5>
+	<table class="pub_table" >
+	<tbody>
+		<tr>
+			<td class="pub_td1"><img src="images/DG/miccai2023.png" class="papericon"></td>
+			<td class="pub_td2"><u>Ziyang Chen<sup>†</sup></u>, Yongsheng Pan<sup>†</sup>, Yiwen Ye, Hengfei Cui, and Yong Xia*<br><b>
+				Treasure in Distribution: A Domain Randomization based Multi-source Domain Generalization for 2D Medical Image Segmentation</b><br> MICCAI, vol. 14223, pp. 89-99, 2023. [<a href="https://link.springer.com/chapter/10.1007/978-3-031-43901-8_9">Paper</a>, <a href="https://github.com/Chen-Ziyang/TriD">Code</a>][<FONT COLOR="#ff0000">Early Accept</FONT>]
+		</td></tr>
+	</tbody></table>
+	<h5><strong>Self-Supervised Learning</strong></h5>
+	<table class="pub_table" >
+	<tbody>
+		<tr>
+			<td class="pub_td1"><img src="images/SSL/tmi2024.png" class="papericon"></td>
+			<td class="pub_td2">Yiwen Ye<sup>†</sup>, Jianpeng Zhang<sup>†</sup>, <u>Ziyang Chen</u>, and Yong Xia*<br><b>
+				CADS: A Self-supervised Learner via Cross-modal Alignment and Deep Self-distillation for CT Volume Segmentation</b><br>IEEE-TMI, 2024. [<a href="https://ieeexplore.ieee.org/abstract/document/10605840">Paper</a>, <a href="https://github.com/yeerwen/CADS">Code</a>]
+		</td></tr>
+		<tr>
+			<td class="pub_td1"><img src="images/SSL/cvpr2024.png" class="papericon"></td>
+			<td class="pub_td2">Yiwen Ye, Yutong Xie*, Jianpeng Zhang, <u>Ziyang Chen</u>, Qi Wu, and Yong Xia*<br><b>
+				Continual Self-supervised Learning: Towards Universal Multi-modal Medical Data Representation Learning</b><br>CVPR, pp. 11114-11124, 2024. [<a href="https://openaccess.thecvf.com/content/CVPR2024/html/Ye_Continual_Self-supervised_Learning_Towards_Universal_Multi-modal_Medical_Data_Representation_Learning_CVPR_2024_paper.html">Paper</a>, <a href="https://github.com/yeerwen/MedCoSS">Code</a>][<FONT COLOR="#ff0000">Highlight</FONT>]
+		</td></tr>
+		<tr>
+			<td class="pub_td1"><img src="images/SSL/miccai2022.png" class="papericon"></td>
+			<td class="pub_td2">Yiwen Ye<sup>†</sup>, Jianpeng Zhang<sup>†</sup>, <u>Ziyang Chen</u>, and Yong Xia<br><b>
+				DeSD: Self-Supervised Learning with Deep Self-Distillation for 3D Medical Image Segmentation</b><br>MICCAI, vol. 13434, pp. 545–555, 2022. [<a href="https://link.springer.com/chapter/10.1007/978-3-031-16440-8_52">Paper</a>, <a href="https://github.com/yeerwen/DeSD">Code</a>]
+		</td></tr>
+	</tbody></table>
+	<h5><strong>Universal Model</strong></h5>
+	<table class="pub_table" >
+	<tbody>
+		<tr>
+			<td class="pub_td1"><img src="images/Universal/miccai2023.png" class="papericon"></td>
+			<td class="pub_td2">Yiwen Ye<sup>†</sup>, Yutong Xie<sup>†</sup>, Jianpeng Zhang, <u>Ziyang Chen</u>, and Yong Xia*<br><b>
+				UniSeg: A Prompt-Driven Universal Segmentation Model as Well as A Strong Representation Learner</b><br>MICCAI 2023, vol. 14222, pp. 508–518, 2023. [<a href="https://link.springer.com/chapter/10.1007/978-3-031-43898-1_49">Paper</a>, <a href="https://github.com/yeerwen/UniSeg">Code</a>][<FONT COLOR="#ff0000">Early Accept</FONT>]
+		</td></tr>
+	</tbody></table>
+    <h2><strong>Awards and Honors</strong></h2>
+        <ul>
+			<li>2025-2027 &nbsp;&bull;&nbsp; Scholarship from China Scholarship Council (Joint PhD Student)</li>
+			<li>2024  &nbsp;&bull;&nbsp; NPU "Academic Star" (Top-10 in the School)</li>
+			<li>2024  &nbsp;&bull;&nbsp; Honorable mention in the FLARE challenge Task 1 at MICCAI 2024 </li>
+			<li>2024  &nbsp;&bull;&nbsp; Winner finalist in the FLARE challenge Task 3 at MICCAI 2024 </li>
+			<li>2024  &nbsp;&bull;&nbsp; 3rd place in the MMIS challenge at MICCAI 2024 </li>
+			<li>2024  &nbsp;&bull;&nbsp; 2nd place in the STAGE2 challenge at MICCAI 2024 </li>
+			<li>2023  &nbsp;&bull;&nbsp; 2nd place in the SegRap challenge at MICCAI 2023 </li>
+			<li>2023  &nbsp;&bull;&nbsp; 2nd place in the STAGE challenge at MICCAI 2023 </li>
+			<li>2022  &nbsp;&bull;&nbsp; National Scholarship (Master Student)</li>
+			<li>2021  &nbsp;&bull;&nbsp; NPU Excellent Undergraduate Award</li>
+			<li>2021  &nbsp;&bull;&nbsp; NPU Excellent Undergraduate Thesis Award</li>
+			<li>2019  &nbsp;&bull;&nbsp; 2nd place in the 2019 China Robot Competition</li>
+			<li>2019  &nbsp;&bull;&nbsp; First prize in the 2nd National College Intelligent Robot Creative Competition</li>
+		</ul>
+	<h2><strong>Reviews</strong></h2>
+	<ul>
+		<h5><li>Conference Reviews</li></h5>
+		    <ul>
+			<li>MICCAI 2024</li>
+			</ul>
+	</ul>
+	<ul>
+		<h5><li>Journal Reviews</li></h5>
+			<ul>
+			<li>IEEE Transactions on Medical Imaging (TMI)</li>
+			<li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+			<li>Knowledge-Based Systems (KBS)</li>
+		</ul>
+	</ul>
+	<h2><strong>Academic Activities</strong></h2>
+	<ul>
+		<li>30 October 2024: MICCAI-FLARE Challenge, Virtual <strong><i>(Online Oral Presentation)</i></strong></li>
+		<li>30 September 2024: MICCAI-STAGE2 Challenge, Virtual <strong><i>(Online Oral Presentation)</i></strong></li>
+		<li>17-21 June 2024: CVPR 2024, Seattle, United States of America <strong><i>(Poster)</i></strong></li>
+		<li>12 October 2023: MICCAI-STAGE Challenge, Virtual <strong><i>(Online Oral Presentation)</i></strong></li>
+		<li>08-12 October 2023: MICCAI 2023, Vancouver, Canada <strong><i>(Poster)</i></strong></li>
+		<li>27 September-01 October 2021: MICCAI 2021 OMIA Workshop, Strasbourg, France <strong><i>(Poster)</i></strong></li>
+    </ul>
+	<p>
+		<center>
+			<td><div id="clustrmaps-widget" style="width:40%">
+			<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=wtR9heomb06BkrWYWQjyfCVMeVXskyN97vyGTiNyUTw"></script>
+			</div></td>
+			&copy; Ziyang Chen | Last updated: 16 December 2024
+		</center>
+	</p>
+</div>
+</div>
+</body></html>
